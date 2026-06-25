@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magazin Online</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Magazinul Meu</h2>
+      <!-- AICI ESTE LINIA CORECTĂ, CLICABILĂ -->
+      <div
+        class="cos"
+        onclick="window.location.href = 'cos.html'"
+        style="cursor: pointer">
+        🛒 <span id="contor-cos">0</span>
+      </div>
+    </header>
+
+    <main>
+      <h1>Produse disponibile</h1>
+      <div class="lista-produse"></div>
+    </main>
+
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>
